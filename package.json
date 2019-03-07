@@ -1,0 +1,26 @@
+{
+  "name": "micro-posts",
+  "version": "1.0.0",
+  "description": "Micro Posts App",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "json-server": "json-server --watch api/db.json"
+  },
+  "author": "Piotr Szponar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}
